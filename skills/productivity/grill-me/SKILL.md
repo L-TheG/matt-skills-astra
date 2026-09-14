@@ -1,7 +1,11 @@
 ---
 name: grill-me
-description: A relentless interview to sharpen a plan or design.
+description: "Stress-test a plan or decision through a focused interview."
 disable-model-invocation: true
 ---
 
-Call the Skill tool with "grilling".
+# Grill me
+
+Use the available grilling skill through the host's skill mechanism. If unavailable, ask focused questions about consequential uncertainties, recommend answers with reasons, and test the plan against concrete counterexamples.
+
+Keep the interview within the user's objective. This request does not authorize implementation or external publication.

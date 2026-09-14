@@ -1,0 +1,12 @@
+{
+  "repository": "mattpocock/skills",
+  "branch": "main",
+  "integratedCommit": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "adaptedAt": "2026-09-14",
+  "guidance": "https://developers.openai.com/blog/rethinking-skills-and-prompts-for-gpt-6-astra",
+  "promotedBuckets": [
+    "engineering",
+    "productivity"
+  ],
+  "policy": "Review upstream changes before porting; do not automatically merge or overwrite Astra adaptations."
+}

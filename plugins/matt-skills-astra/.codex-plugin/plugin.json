@@ -1,0 +1,21 @@
+{
+  "name": "matt-skills-astra",
+  "version": "1.0.0",
+  "description": "Matt Pocock's engineering and productivity skills, adapted for GPT-6 Astra.",
+  "author": {
+    "name": "L-TheG"
+  },
+  "homepage": "https://github.com/L-TheG/matt-skills-astra",
+  "repository": "https://github.com/L-TheG/matt-skills-astra",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Matt Skills Astra",
+    "shortDescription": "Matt Pocock skills adapted for GPT-6 Astra",
+    "longDescription": "Personal fork of Matt Pocock's 25 promoted skills. Outcome-oriented workflows, preserved invocation policies, proportionate verification, and host-aware instructions. No tools, hooks, or credentials required.",
+    "developerName": "L-TheG",
+    "category": "Developer Tools",
+    "capabilities": [],
+    "defaultPrompt": "Help me choose the right Matt Skills Astra workflow for my task."
+  }
+}

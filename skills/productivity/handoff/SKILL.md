@@ -1,16 +1,16 @@
 ---
 name: handoff
-description: Compact the current conversation into a handoff document for another agent to pick up.
+description: "Write portable continuation notes for another agent or session."
 argument-hint: "What will the next session be used for?"
 disable-model-invocation: true
 ---
 
-Write a handoff document summarising the current conversation so a fresh agent can continue the work. Save to the temporary directory of the user's OS - not the current workspace.
+# Handoff
 
-Include a "suggested skills" section in the document, naming which skills the next agent should call the Skill tool for.
+Write a concise handoff with the objective, current state, settled decisions and rationale, changed artifacts, verification, unresolved blockers, and the next useful action. Distinguish completed work from plans.
 
-Do not duplicate content already captured in other artifacts (specs, plans, ADRs, issues, commits, diffs). Reference them by path or URL instead.
+Reference specs, issues, commits, and files instead of repeating their content. Use resolvable paths or URLs and identify the host or repository when necessary. Name relevant skills as suggestions, not assumed tool calls.
 
-Redact any sensitive information, such as API keys, passwords, or personally identifiable information.
+Exclude credentials and unnecessary personal data. Save to the user's requested destination, otherwise an available OS temporary or artifact directory outside the project. Report the exact path and warn when a temporary file may not survive cleanup.
 
-If the user passed arguments, treat them as a description of what the next session will focus on and tailor the doc accordingly.
+Creating a document does not start a new task, change directories, or transfer work automatically.

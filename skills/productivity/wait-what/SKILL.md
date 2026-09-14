@@ -1,7 +1,11 @@
 ---
 name: wait-what
-description: "Stop. That last message did not land: re-pitch it."
+description: "Re-explain the last message with clearer context and simpler language."
 disable-model-invocation: true
 ---
 
-Wait, I don't understand where you've got to here. Re-pitch that: give me a little bit of context, talk in ASD-STE100 Simplified Technical English, and use the ubiquitous language from `CONTEXT.md` (follow `CONTEXT-MAP.md` to the right one if the repo has more than one).
+# Wait, what?
+
+Briefly re-establish the objective, where the work currently stands, and the point that did not land. Explain it in the user's language using short, concrete sentences and the project's established domain terms where relevant.
+
+Expand unfamiliar terminology. Use a small example if it resolves the confusion. Do not require formal Simplified Technical English or a glossary lookup when that would get in the way of an ordinary explanation.
